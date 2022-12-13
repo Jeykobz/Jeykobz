@@ -1,7 +1,9 @@
 ### Hey there 👋
 
 ### Welcome to my Github
-I'm Jakob Michel Stock,
+I am Jakob Michel Stock, a passionate researcher in the field of artificial neural network analysis and optimization.
+Currently I am doing research on runtime and scalability prediction of convolutional neural networks at TU Darmstadt in the Parallel Programming department of Prof. Felix Wolf.
+🌱 My set goal for 2023 is to join the Scalable Parallel Computing Laboratory of Prof. Torsten Hoefler at ETH Zurich and tackle new challenges in my research in deep learning model optimization.
 
 <p align = "center">
 <img src = "deep learning gif.gif">
