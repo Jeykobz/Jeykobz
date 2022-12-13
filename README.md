@@ -1,3 +1,13 @@
+### Hey there 👋
+
+### Welcome to my Github
+I'm Jakob Michel Stock,
+
+<p align = "center">
+<img src = "deep learning gif.gif">
+</p>
+
+
 - 👋 Hi, I’m @Jeykobz
 - 👀 I'm interested in computer science in general, but especially in artificial learning, machine learning, deep learning and reinforcement learning.
 - 🌱 I’m currently learning the basics of reinforcement learning and I'm currently developing a lightweight neural network analyzer based on PyTorch. 
