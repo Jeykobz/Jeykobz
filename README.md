@@ -18,6 +18,8 @@ Make yourself at home and see what I'm working on!
 
 We found that prediction models based on a combination of activations, FLOPs, and input sizes provide accurate prediction of latency and require little time to learn. They are easy to use, and take runtime implementations into account. Based on these findings, we developed a **latency predictor based on low-overhead profiling using micro-benchmarks** to minimize the performance modeling overhead.
 
+* Our model is more than **1500% more time efficient** than microsoft's nn-meter latency predictor (5-15 minutes vs 1-4 days)
+* Only needs to run **100 benchmarks** instead of over a billion, making our approach **more energy efficient** than microsoft's approach
 ---
 # DNN analyzer 
 **(January 2021 - August 2021)**
