@@ -25,7 +25,7 @@ We found that prediction models based on a combination of activations, FLOPs, an
 Deep neural networks often consume a lot of computating power and memory, making them quite challenging to be deployed on edge devices.
 Our **lightweight neural network analyzer based on PyTorch** predicts the computational requirements of a given DNN.
 
-Check out the repo! https://github.com/TUD-UCB-Boda/dnn_analyzer
+Check out the repo for more details! https://github.com/TUD-UCB-Boda/dnn_analyzer
 
 ## Example
 
