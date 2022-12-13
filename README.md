@@ -13,11 +13,15 @@ Currently I am doing research on runtime and scalability prediction of convoluti
 Make yourself at home and see what I'm working on!
 
 ---
-# Low-Overhead Latency Predictor (August 2021 - Present)
+# Low-Overhead Latency Predictor
+**(August 2021 - Present)**
+
 We found that prediction models based on a combination of activations, FLOPs, and input sizes provide accurate prediction of latency and require little time to learn. They are easy to use, and take runtime implementations into account. Based on these findings, we developed a **latency predictor based on low-overhead profiling using micro-benchmarks** to minimize the performance modeling overhead.
 
 ---
-# DNN analyzer (March 2021 - August 2021)
+# DNN analyzer 
+**(January 2021 - August 2021)**
+
 Deep neural networks often consume a lot of computating power and memory, making them quite challenging to be deployed on edge devices.
 Our **lightweight neural network analyzer based on PyTorch** predicts the computational requirements of a given DNN.
 
@@ -25,7 +29,7 @@ Check out the repo! https://github.com/TUD-UCB-Boda/dnn_analyzer
 
 ## Example
 
-MobileNet_v2 analyzed with our dnn analyzer:
+MobileNet-V2 analyzed with our dnn analyzer:
 
 ```python
 from dnn_analyzer import model_analysis
