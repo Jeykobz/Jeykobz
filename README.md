@@ -8,7 +8,7 @@ Currently I am doing research on runtime and scalability prediction of convoluti
 <img src = "images/deep learning gif (1).gif">
 </p>
 
-🌱 My set goal for 2023 is to join the Scalable Parallel Computing Laboratory of Prof. Torsten Hoefler at ETH Zurich and tackle new challenges in my research in deep learning model optimization.
+🌱 My set goal for 2023 is to join the [Scalable Parallel Computing Laboratory of Prof. Torsten Hoefler](http://spcl.inf.ethz.ch/) at ETH Zurich and tackle new challenges in my research in deep learning model optimization.
 
 Make yourself at home and see what I'm working on!
 
@@ -27,7 +27,7 @@ For more preliminary information, see the Repo! https://github.com/Jeykobz/dnn-l
 ## Example
 In the following example we learn a latency predictor for the Nvidia A100 80GB GPU.<br />
 
-We collect a training data set by running our micro benchmarking tool on the A100 GPU.<br />
+Initially, our model collects a training data set by running our developed micro benchmarking tool.<br />
 By using machine learning methods, our algorithm automatically trains regression models based on the collected micro training dataset.
 
 <p align = "center">
@@ -35,7 +35,7 @@ By using machine learning methods, our algorithm automatically trains regression
 </p>
 
 The following graph shows the performance of the learned latency prediction model for the Nvidia A100 80GB GPU.<br /> 
-Each point represents a sample from the collected test data set. The yellow line indicates the predicted latencies.
+Each point represents a sample from the collected test data set, which contains a total of over 17000 data points. The yellow line indicates the predicted latencies.
 
 <p align = "center">
 <img src = "images/A100 results.png">
@@ -45,7 +45,7 @@ Our prediction model for the Nvidia A100 GPU achieves **low median errors** of
 * **20.87%** in the low latency range (<2ms) 
 * **9.46%** in the high latency range (>2ms)
 
-We achieve a high **correlation of 0.98** between the actual and the predicted latency and a **R-squared value of 0.96**.
+as well as a high **correlation of 0.98** between the actual and the predicted latency and a **R-squared value of 0.96**.
 
 ---
 # DNN analyzer 
