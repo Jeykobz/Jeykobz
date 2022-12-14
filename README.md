@@ -22,6 +22,21 @@ We found that prediction models based on a combination of activations, FLOPs, an
 * The training of our model is more than **1500% more time efficient** than [Microsoft's nn-meter](https://github.com/microsoft/nn-Meter) latency predictor (5-15 minutes vs 1-4 days)
 * Learning our model only requires benchmarking **100 samples instead of over a billion**, making our approach **more energy efficient** than Microsoft's
 
+For more preliminary information, see the Repo! https://github.com/Jeykobz/dnn-latency-predictor
+
+## Example
+Collecting benchmarks to create a training dataset for learning the latency prediction model for the Nvidia A100 80GB GPU.
+
+<p align = "center">
+<img src = "CMD output.png">
+</p>
+
+The following graph shows the learned latency prediction model for the Nvidia A100 80GB GPU. 
+Each point represents a sample from the training set collected using our micro benchmarking tool.
+
+<p align = "center">
+<img src = "Micro benchmarks A100 GPU (1).svg">
+</p>
 
 ---
 # DNN analyzer 
