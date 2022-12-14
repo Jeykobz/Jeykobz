@@ -25,24 +25,25 @@ We found that prediction models based on a combination of activations, FLOPs, an
 For more preliminary information, see the Repo! https://github.com/Jeykobz/dnn-latency-predictor
 
 ## Example
-Collecting benchmarks to create a training dataset for learning the latency prediction model for the Nvidia A100 80GB GPU.
+Collecting benchmarks to create a micro dataset for the Nvidia A100 80GB GPU.<br />
+And learning the prediction model by applying machine learning models to create regression models...
 
 <p align = "center">
 <img src = "images/CMD output image.png">
 </p>
 
-The following graph shows the learned latency prediction model for the Nvidia A100 80GB GPU. 
-Each point represents a sample from the training set collected using our micro benchmarking tool.
+The following graph shows the performance of the learned latency prediction model for the Nvidia A100 80GB GPU.<br /> 
+Each point represents a sample from the collected test data set.
 
 <p align = "center">
-<img src = "images/Blocks, A100 latency_acts_flops_inp_low_latency_included (1).svg">
+<img src = "images/A100 results.png">
 </p>
 
 ---
 # DNN analyzer 
 **(January 2021 - August 2021)**
 
-Deep neural networks often consume a lot of computating power and memory, making them quite challenging to be deployed on edge devices.
+Deep neural networks often consume a lot of computating power and memory, making them quite challenging to be deployed on edge devices.<br />
 Our **lightweight neural network analyzer based on PyTorch** predicts the computational requirements of a given DNN.
 
 Check out the repo for more details! https://github.com/TUD-UCB-Boda/dnn_analyzer
