@@ -28,7 +28,7 @@ For more preliminary information, see the Repo! https://github.com/Jeykobz/dnn-l
 Collecting benchmarks to create a training dataset for learning the latency prediction model for the Nvidia A100 80GB GPU.
 
 <p align = "center">
-<img src = "CMD output.png">
+<img src = "CMD output image.png">
 </p>
 
 The following graph shows the learned latency prediction model for the Nvidia A100 80GB GPU. 
