@@ -5,7 +5,7 @@ I am Jakob Michel Stock, a passionate researcher in the field of artificial neur
 Currently I am doing research on runtime and scalability prediction of convolutional neural networks at TU Darmstadt in the Parallel Programming department of Prof. Felix Wolf.
 
 <p align = "center">
-<img src = "deep learning gif.gif">
+<img src = "images/deep learning gif (1).gif">
 </p>
 
 🌱 My set goal for 2023 is to join the Scalable Parallel Computing Laboratory of Prof. Torsten Hoefler at ETH Zurich and tackle new challenges in my research in deep learning model optimization.
@@ -28,14 +28,14 @@ For more preliminary information, see the Repo! https://github.com/Jeykobz/dnn-l
 Collecting benchmarks to create a training dataset for learning the latency prediction model for the Nvidia A100 80GB GPU.
 
 <p align = "center">
-<img src = "CMD output image.png">
+<img src = "images/CMD output image.png">
 </p>
 
 The following graph shows the learned latency prediction model for the Nvidia A100 80GB GPU. 
 Each point represents a sample from the training set collected using our micro benchmarking tool.
 
 <p align = "center">
-<img src = "Micro benchmarks A100 GPU (1).svg">
+<img src = "images/Blocks, A100 latency_acts_flops_inp_low_latency_included (1).svg">
 </p>
 
 ---
@@ -97,7 +97,7 @@ Thank you for your time!
 📫 Feel free to reach me: jakobstock@web.de
 
 <a href="https://www.linkedin.com/in/jakob-stock-220127217/">
-  <img align="left" alt="Jakob's LinkdeIN" width="30px" src="linkedin.png" />
+  <img align="left" alt="Jakob's LinkdeIN" width="30px" src="images/linkedin.png" />
 </a>
 
 <!---
