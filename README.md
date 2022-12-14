@@ -13,7 +13,7 @@ Currently I am doing research on runtime and scalability prediction of convoluti
 Make yourself at home and see what I'm working on!
 
 ---
-# Low-Overhead Latency Predictor
+# Low-Overhead CNN Latency Predictor
 **(August 2021 - Present)**
 
 We found that prediction models based on a combination of activations, FLOPs, and input sizes provide accurate prediction of latency and require little time to learn. They are easy to use, and take runtime implementations into account. Based on these findings, we developed a **latency predictor based on low-overhead profiling using micro-benchmarks** to minimize the performance modeling overhead.
@@ -25,25 +25,33 @@ We found that prediction models based on a combination of activations, FLOPs, an
 For more preliminary information, see the Repo! https://github.com/Jeykobz/dnn-latency-predictor
 
 ## Example
-Collecting benchmarks to create a micro dataset for the Nvidia A100 80GB GPU.<br />
-And learning the prediction model by applying machine learning models to create regression models...
+In the following example we learn a latency predictor for the Nvidia A100 80GB GPU.<br />
+
+We collect a training data set by running our micro benchmarking tool on the A100 GPU.<br />
+By using machine learning methods, our algorithm automatically trains regression models based on the collected micro training dataset.
 
 <p align = "center">
 <img src = "images/CMD output image.png">
 </p>
 
 The following graph shows the performance of the learned latency prediction model for the Nvidia A100 80GB GPU.<br /> 
-Each point represents a sample from the collected test data set.
+Each point represents a sample from the collected test data set. The yellow line indicates the predicted latencies.
 
 <p align = "center">
 <img src = "images/A100 results.png">
 </p>
 
+Our prediction model for the Nvidia A100 GPU achieves **low median errors** of 
+* **20.87%** in the low latency range (<2ms) 
+* **9.46%** in the high latency range (>2ms)
+
+We achieve a high **correlation of 0.98** between the actual and the predicted latency and a **R-squared value of 0.96**.
+
 ---
 # DNN analyzer 
 **(January 2021 - August 2021)**
 
-Deep neural networks often consume a lot of computating power and memory, making them quite challenging to be deployed on edge devices.<br />
+Deep neural networks often consume a lot of computating power and memory, making them quite challenging to be deployed on edge devices.
 Our **lightweight neural network analyzer based on PyTorch** predicts the computational requirements of a given DNN.
 
 Check out the repo for more details! https://github.com/TUD-UCB-Boda/dnn_analyzer
