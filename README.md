@@ -35,7 +35,7 @@ By using machine learning methods, our algorithm automatically trains regression
 </p>
 
 The following graph shows the performance of the learned latency prediction model for the Nvidia A100 80GB GPU.<br /> 
-Each point represents a sample from the collected test data set, which contains a total of over 17000 data points. The yellow line indicates the predicted latencies.
+Each point represents a sample from the collected test data set, which contains a total of over 17000 data points. The purple line indicates the predicted latencies.
 
 <p align = "center">
 <img src = "images/A100 results.svg">
