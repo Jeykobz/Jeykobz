@@ -105,7 +105,7 @@ Thank you for your time!
 
 📫 Feel free to reach me: jakobstock@web.de
 
-<a href="https://www.linkedin.com/in/jakob-stock-220127217/">
+<a href="https://www.linkedin.com/in/jakob-michel-stock-220127217/">
   <img align="left" alt="Jakob's LinkdeIN" width="30px" src="images/linkedin.png" />
 </a>
 
