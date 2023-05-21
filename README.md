@@ -8,7 +8,7 @@ Currently I am doing research on runtime and scalability prediction of convoluti
 <img src = "images/deep learning gif (1).gif">
 </p>
 
-🌱 My set goal for 2023 is to join the [Scalable Parallel Computing Laboratory of Prof. Torsten Hoefler](http://spcl.inf.ethz.ch/) at ETH Zurich and tackle new challenges in my research in deep learning model optimization.
+🌱 My set goal for 2023 is to join the [Robotics, Artificial Intelligence and Embedded Systems Laboratory of Professor Alois Knoll]([http://spcl.inf.ethz.ch/](https://www.ce.cit.tum.de/air/home/)) at TU Munich and tackle new challenges in my research in deep learning model optimization.
 
 Make yourself at home and see what I'm working on!
 
